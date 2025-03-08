@@ -2,12 +2,23 @@
 body {
     font-family: 'Century Gothic', sans-serif;
     line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
 }
 
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 22px;
+}
 
-.h1 {
-    font-family: inherit;
-    font-weight: 500;
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 .navbar {
@@ -26,17 +37,15 @@ body {
     color: #0d6efd;
 }
 
-.btn-primary {
-    background-color: #0d6dfd7d;
-    border-color: #0d6dfd7d;
+.button {
+    color: #0d6efd;
 }
 
-.btn-secondary {
-    background-color: #6c757d;
-    border-color: #6c757d;
+.button:hover {
+    background-color: white;
+    color: #0d57c7;
 }
 
-/* Spacing */
 .container {
     margin-top: 1%;
     margin-bottom: 1%;
@@ -46,7 +55,6 @@ img {
     margin-bottom: 20px;
 }
 
-/* Custom Table Styling */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -61,16 +69,18 @@ th {
     background-color: #f8f9fa;
 }
 
-/* Navigation Styling */
 .nav-pills .nav-link.active {
-    background-color: #0056b3;
+    background-color: #0d57c7;
 }
 
-/* Form Styling */
-input, textarea {
+.nav-link:focus {
+    outline: 2px solid #0d57c7;
+    outline-offset: 2px;
+}
+
+.form-control {
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #888888;
     border-radius: 4px;
 }
-
